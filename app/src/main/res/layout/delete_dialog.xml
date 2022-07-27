@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+    <View
+        android:layout_width="130dp"
+        android:layout_height="5dp"
+        android:background="#A8A8A8"
+        android:layout_gravity="center"
+        android:layout_margin="10dp">
+
+    </View>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/acme"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:text="Are you sure want to delete\n this note?  "
+        android:textSize="18sp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/delete_dialog_no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/btn_no_background"
+        android:fontFamily="@font/acme"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="NO"
+        android:textColor="@color/black">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/delete_dialog_yes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/btn_yes_background"
+        android:fontFamily="@font/acme"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="YES"
+        android:textColor="@color/black">
+
+    </TextView>
+
+</LinearLayout>
