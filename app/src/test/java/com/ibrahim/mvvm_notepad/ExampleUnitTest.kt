@@ -1,4 +1,4 @@
-package com.ibrahim.notepad
+package com.ibrahim.mvvm_notepad
 
 import org.junit.Test
 

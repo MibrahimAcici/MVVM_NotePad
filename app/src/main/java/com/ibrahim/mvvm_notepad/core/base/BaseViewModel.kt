@@ -1,9 +1,7 @@
-package com.ibrahim.notepad.core.base
+package com.ibrahim.mvvm_notepad.core.base
 
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel
-import androidx.lifecycle.MutableLiveData
-
 
 abstract class BaseViewModel(application: Application) : AndroidViewModel(application){
 

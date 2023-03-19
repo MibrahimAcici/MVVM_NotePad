@@ -1,4 +1,4 @@
-package com.ibrahim.notepad.ui.home
+package com.ibrahim.mvvm_notepad.ui.home
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -9,8 +9,8 @@ import androidx.fragment.app.viewModels
 import androidx.navigation.Navigation
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.ibrahim.notepad.adapter.NoteAdapter
-import com.ibrahim.notepad.databinding.FragmentHomeBinding
+import com.ibrahim.mvvm_notepad.adapter.NoteAdapter
+import com.ibrahim.mvvm_notepad.databinding.FragmentHomeBinding
 
 class HomeFragment : Fragment() {
 

@@ -6,7 +6,7 @@
     app:startDestination="@id/homeFragment">
     <fragment
         android:id="@+id/homeFragment"
-        android:name="com.ibrahim.notepad.ui.home.HomeFragment"
+        android:name="com.ibrahim.mvvm_notepad.ui.home.HomeFragment"
         android:label="fragment_home"
         tools:layout="@layout/fragment_home">
         <action
@@ -16,12 +16,12 @@
 
     <fragment
         android:id="@+id/noteDetailFragment"
-        android:name="com.ibrahim.notepad.ui.insertOrUpdate.NoteDetailFragment"
+        android:name="com.ibrahim.mvvm_notepad.ui.insertOrUpdate.NoteDetailFragment"
         android:label="fragment_note_detail"
         tools:layout="@layout/fragment_note_detail">
         <argument
             android:name="currentNote"
-            app:argType="com.ibrahim.notepad.db.entity.NoteEntity"
+            app:argType="com.ibrahim.mvvm_notepad.db.entity.NoteEntity"
             app:nullable="true" />
     </fragment>
 

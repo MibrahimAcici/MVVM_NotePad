@@ -1,8 +1,8 @@
-package com.ibrahim.notepad.db.dao
+package com.ibrahim.mvvm_notepad.db.dao
 
 import androidx.lifecycle.LiveData
 import androidx.room.*
-import com.ibrahim.notepad.db.entity.NoteEntity
+import com.ibrahim.mvvm_notepad.db.entity.NoteEntity
 
 @Dao
 interface NoteDao {

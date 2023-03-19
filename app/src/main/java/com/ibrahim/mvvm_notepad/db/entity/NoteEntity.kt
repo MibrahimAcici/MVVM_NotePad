@@ -1,4 +1,4 @@
-package com.ibrahim.notepad.db.entity
+package com.ibrahim.mvvm_notepad.db.entity
 
 import android.os.Parcelable
 import androidx.room.ColumnInfo

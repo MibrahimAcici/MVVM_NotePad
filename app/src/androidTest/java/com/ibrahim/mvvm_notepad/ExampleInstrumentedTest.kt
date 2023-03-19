@@ -1,4 +1,4 @@
-package com.ibrahim.notepad
+package com.ibrahim.mvvm_notepad
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

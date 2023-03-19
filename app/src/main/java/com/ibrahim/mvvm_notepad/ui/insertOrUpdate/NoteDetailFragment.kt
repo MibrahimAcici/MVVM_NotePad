@@ -1,4 +1,4 @@
-package com.ibrahim.notepad.ui.insertOrUpdate
+package com.ibrahim.mvvm_notepad.ui.insertOrUpdate
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -9,11 +9,11 @@ import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
 import com.google.android.material.bottomsheet.BottomSheetDialog
-import com.ibrahim.notepad.R
-import com.ibrahim.notepad.databinding.DeleteDialogBinding
-import com.ibrahim.notepad.databinding.FragmentNoteDetailBinding
-import com.ibrahim.notepad.db.Database
-import com.ibrahim.notepad.db.entity.NoteEntity
+import com.ibrahim.mvvm_notepad.R
+import com.ibrahim.mvvm_notepad.databinding.DeleteDialogBinding
+import com.ibrahim.mvvm_notepad.databinding.FragmentNoteDetailBinding
+import com.ibrahim.mvvm_notepad.db.Database
+import com.ibrahim.mvvm_notepad.db.entity.NoteEntity
 
 
 class NoteDetailFragment : Fragment() {
@@ -91,7 +91,6 @@ class NoteDetailFragment : Fragment() {
     }
 
     private fun onDeleteClick() {
-
         bottomSheet.show()
     }
 

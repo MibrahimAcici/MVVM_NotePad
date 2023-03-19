@@ -1,13 +1,12 @@
-package com.ibrahim.notepad.adapter
+package com.ibrahim.mvvm_notepad.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.navigation.Navigation
 import androidx.recyclerview.widget.RecyclerView
-import com.ibrahim.notepad.databinding.NoteItemBinding
-import com.ibrahim.notepad.db.entity.NoteEntity
-import com.ibrahim.notepad.ui.home.HomeFragmentDirections
-
+import com.ibrahim.mvvm_notepad.databinding.NoteItemBinding
+import com.ibrahim.mvvm_notepad.db.entity.NoteEntity
+import com.ibrahim.mvvm_notepad.ui.home.HomeFragmentDirections
 
 class NoteAdapter(): RecyclerView.Adapter<NoteAdapter.NoteVH>() {
 

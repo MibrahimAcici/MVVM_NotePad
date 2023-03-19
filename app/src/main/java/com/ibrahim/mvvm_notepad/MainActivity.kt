@@ -1,8 +1,8 @@
-package com.ibrahim.notepad
+package com.ibrahim.mvvm_notepad
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.ibrahim.notepad.databinding.ActivityMainBinding
+import com.ibrahim.mvvm_notepad.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
     lateinit var binding: ActivityMainBinding
